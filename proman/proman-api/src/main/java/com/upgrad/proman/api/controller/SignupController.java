@@ -1,4 +1,5 @@
 package com.upgrad.proman.api.controller;
+
 import com.upgrad.proman.api.model.SignupUserRequest;
 import com.upgrad.proman.api.model.SignupUserResponse;
 import com.upgrad.proman.service.business.SignupBusinessService;
@@ -17,13 +18,11 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/")
 public class SignupController {
-
     @Autowired
     private SignupBusinessService signupBusinessService;
 
-    @RequestMapping(method= RequestMethod.POST, path="/signup", consumes= MediaType.APPLICATION_JSON_UTF8_VALUE, produces= MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<SignupUserResponse> signup(final SignupUserRequest signupUserRequest)
-    {
+    @RequestMapping(method = RequestMethod.POST, path = "/signup", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public ResponseEntity<SignupUserResponse> signup(final SignupUserRequest signupUserRequest) {
         final UserEntity userEntity = new UserEntity();
         userEntity.setUuid(UUID.randomUUID().toString());
         userEntity.setFirstName(signupUserRequest.getFirstName());
@@ -35,9 +34,8 @@ public class SignupController {
         userEntity.setStatus(4);
         userEntity.setCreatedAt(ZonedDateTime.now());
         userEntity.setCreatedBy("api-backend");
-
         final UserEntity createdUserEntity = signupBusinessService.signup(userEntity);
         SignupUserResponse userResponse = new SignupUserResponse().id(createdUserEntity.getUuid()).status("REGISTERED");
-        return new ResponseEntity<SignupUserResponse>(userResponse,HttpStatus.CREATED);
+        return new ResponseEntity<SignupUserResponse>(userResponse, HttpStatus.CREATED);
     }
 }
