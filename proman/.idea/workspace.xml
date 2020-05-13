@@ -2,68 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1579399e-4d6a-4fab-a156-edf73235c8f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/proman.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/controller/SignupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/controller/config/SwaggerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/src/main/resources/endpoints/signup.json" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/src/main/resources/endpoints/signup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/controller/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/controller/SignupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/controller/config/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/SignupUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/SignupUserRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/SignupUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/SignupUserResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/UserStatusType.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/com/upgrad/proman/api/model/UserStatusType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/endpoints/signup.json" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/endpoints/signup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/RFC3339DateFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/RFC3339DateFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/Swagger2SpringBoot$ExitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/Swagger2SpringBoot$ExitException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/Swagger2SpringBoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/Swagger2SpringBoot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiOriginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiOriginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/ApiResponseMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/api/NotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/configuration/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/configuration/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/.swagger-codegen-ignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/.swagger-codegen/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/META-INF/proman-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/PermissionsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/PermissionsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleDetailsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleDetailsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserStatusType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UpdateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UpdateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserSummaryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserSummaryType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UsersSummaryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UsersSummaryResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-api/target/proman-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/proman-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/proman-db.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/src/main/resources/sql/db-seed-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/src/main/resources/sql/db-seed-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/target/classes/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/target/classes/config/localhost.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-db/target/classes/sql/db-seed-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/target/classes/sql/db-seed-data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-db/target/proman-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/target/proman-db.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/business/SignupBusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/business/SignupBusinessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/RoleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserAuthTokenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserAuthTokenEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/business/SignupBusinessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/business/SignupBusinessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/RoleEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/UserAuthTokenEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/UserAuthTokenEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/classes/com/upgrad/proman/service/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proman-service/target/proman-service-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/proman-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proman.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +85,16 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".yaml&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Downloads/proman_session1/proman/proman-api/src/main/resources/application.yaml&#10;lo&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Downloads/proman_session1/proman/proman-db/src/main/resources/config/localhost.properties&#10;signupbusinesser&#9;FILE&#9;file://C:/Users/Sachet.Shandilya/IdeaProjects/proman/proman-service/src/main/java/com/upgrad/proman/service/business/SignupBusinessService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538130892939" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../postgresql-42.2.5.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/postgresql-42.2.12.jar!/" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.40689656" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -229,120 +202,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Project_Structure" timestamp="1589402400852">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1589402400852" />
     <state x="618" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589237542790">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="618" y="321" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1589237542790" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589238171571">
+    <state x="501" y="181" key="FileChooserDialogImpl" timestamp="1589399649882">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589238171571">
+    <state x="501" y="181" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589399649882" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589238171570">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1589403607068">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589238171570" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589238171571">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589403607068" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1589403607068">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589238171571">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589403607068" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589238171571">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589238171571">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589238171571">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589238171571" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589237529076">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589403607069">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589237529076" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>proman-api</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589403607069" />
+    <state x="277" y="14" key="SettingsEditor" timestamp="1589402443340">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589402443340" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589402308250">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589402308250" />
   </component>
 </project>

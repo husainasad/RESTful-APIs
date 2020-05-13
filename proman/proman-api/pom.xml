@@ -68,9 +68,9 @@
                         <generateModels>true</generateModels>
                         <modelPackage>com.upgrad.proman.api.model</modelPackage>
                         <configOptions>
-                            <java14>true</java14>
+                            <java11>true</java11>
                             <sourceFolder>.</sourceFolder>
-                            <dateLibrary>java14</dateLibrary>
+                            <dateLibrary>java11</dateLibrary>
 
                         </configOptions>
                     </configuration>
