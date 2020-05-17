@@ -1,3 +1,4 @@
+com\upgrad\proman\api\exception\RestExceptionHandler.class
 com\upgrad\proman\api\model\UserOperationRequest$PathEnum.class
 io\swagger\configuration\HomeController.class
 com\upgrad\proman\api\model\RoleDetailsType.class
