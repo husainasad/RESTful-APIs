@@ -1,6 +1,7 @@
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserDetailsResponse.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserSummaryType.java
 F:\Projects\RESTful APIs\proman\proman-api\src\main\java\com\upgrad\proman\api\config\SwaggerConfiguration.java
+F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\AuthorizedUserResponse.java
 F:\Projects\RESTful APIs\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\SignupController.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\RoleType.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UsersSummaryResponse.java
@@ -21,6 +22,7 @@ F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\CreateUserRequest.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiResponseMessage.java
 F:\Projects\RESTful APIs\proman\proman-api\src\main\java\com\upgrad\proman\api\exception\RestExceptionHandler.java
+F:\Projects\RESTful APIs\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\AuthenticationController.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\SignupUserResponse.java
 F:\Projects\RESTful APIs\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserStatusType.java
 F:\Projects\RESTful APIs\proman\proman-api\src\main\java\com\upgrad\proman\api\PromanApiApplication.java
