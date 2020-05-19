@@ -28,22 +28,22 @@ public class AuthenticationController {
 
     @RequestMapping(method = RequestMethod.POST, path = "auth/login", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<AuthorizedUserResponse> login(@RequestHeader("authorization") final String authorization) throws AuthenticationFailedException {
-        //Basic dXNlcm5hbWU6cGFzc3dvcmQ=
-        //above is a sample encoded text where the username is "username" and password is "password" seperated by a ":"
+
+
         byte[] decode = Base64.getDecoder().decode(authorization.split("Basic ")[1]);
         String decodedText = new String(decode);
         String[] decodedArray = decodedText.split(":");
 
-        UserAuthTokenEntity userAuthToken = authenticationService.authenticate(decodedArray[0],decodedArray[1]);
+        UserAuthTokenEntity userAuthToken = authenticationService.authenticate(decodedArray[0], decodedArray[1]);
         UserEntity user = userAuthToken.getUser();
 
-        AuthorizedUserResponse authorizedUserResponse =  new AuthorizedUserResponse().id(UUID.fromString(user.getUuid()))
+        AuthorizedUserResponse authorizedUserResponse = new AuthorizedUserResponse().id(UUID.fromString(user.getUuid()))
                 .firstName(user.getFirstName()).lastName(user.getLastName())
                 .emailAddress(user.getEmail()).mobilePhone(user.getMobilePhone())
                 .lastLoginTime(user.getLastLoginAt());
 
         HttpHeaders headers = new HttpHeaders();
         headers.add("access-token", userAuthToken.getAccessToken());
-        return new ResponseEntity<AuthorizedUserResponse>(authorizedUserResponse,headers, HttpStatus.OK);
+        return new ResponseEntity<AuthorizedUserResponse>(authorizedUserResponse, headers, HttpStatus.OK);
     }
 }

@@ -8,7 +8,7 @@ public class AuthenticationFailedException extends Exception {
     private final String code;
     private final String errorMessage;
 
-    public AuthenticationFailedException(final String code, final String errorMessage){
+    public AuthenticationFailedException(final String code, final String errorMessage) {
         this.code = code;
         this.errorMessage = errorMessage;
     }
@@ -28,11 +28,11 @@ public class AuthenticationFailedException extends Exception {
         super.printStackTrace(s);
     }
 
-    public String getCode(){
+    public String getCode() {
         return code;
     }
 
-    public String getErrorMessage(){
+    public String getErrorMessage() {
         return errorMessage;
     }
 }
